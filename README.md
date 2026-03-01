@@ -33,7 +33,6 @@ A professional and efficient subscription management application designed to hel
 
 - [Node.js](https://nodejs.org/) (v18.0.0 or higher recommended)
 - npm or yarn
-- A Firebase project
 
 ### Installation
 
@@ -47,14 +46,6 @@ A professional and efficient subscription management application designed to hel
    ```bash
    npm install
    ```
-
-3. **Firebase Setup:**
-   - Create a project in the [Firebase Console](https://console.firebase.google.com/).
-   - Enable **Authentication** (Email/Password or Google).
-   - Create a **Firestore Database**.
-   - Update the configuration in `src/services/firebase.js` with your project's credentials.
-
-   *Note: For production environments, it is recommended to use environment variables (`.env`).*
 
 ### Development
 
@@ -82,7 +73,7 @@ SubscriptionTraker/
 │   ├── context/          # Global state management (Auth)
 │   ├── hooks/            # Custom hooks for data fetching
 │   ├── pages/            # Main application views/routes
-│   ├── services/         # External service configurations (Firebase)
+│   ├── services/         # External service configurations
 │   ├── utils/            # Helper functions and utilities
 │   └── App.jsx           # Main App component and routing
 ├── public/               # Static assets
@@ -98,4 +89,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/SubscriptionTraker/issues).
 
 ---
-*Developed with ❤️ for better financial tracking.*
+*Developed with a lot of caffeine for better financial tracking.*
